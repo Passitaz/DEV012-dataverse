@@ -7,5 +7,48 @@
   </head>
   <body>
     <script src="main.js" type="module"></script>
+
+    <header> 
+      <h1>Generos musicales</h1>
+      
+      <div id="imagen">
+      <img
+        src="https://th.bing.com/th/id/OIP.dFOY_50jqCmycy_YHEfGEAHaE8?pid=ImgDet&rs=1" 
+        />
+      </div>
+
+      <div id="filtros">
+        <h2>Género</h2>
+        <select data-testid="select-filter" name="genero" id="genero">
+        <option value="todos">Todos</option>
+          <option value="Pop">Pop</option>
+          <option value="Rock">Rock</option>
+          <option value="Cumbia">Cumbia</option>
+        </select>
+      
+        <h2>Albums</h2>
+        <select data-testid="select-filter" name="albums" id="albums">
+        <option value="todos">Todos</option>
+          <option value="1-10">1-10</option>
+          <option value="11-20">11-20</option>
+          <option value="21+">21+</option>
+        </select>
+
+        <h2>Alfabeticamente</h2>
+          <select data-testid="select-filter" name="alfabeto" id="alfabeto">
+          <option value="todos">Todos</option>
+            <option value="A-Z">A-Z</option>
+            <option value="Z-A">Z-A</option>
+          </select>
+
+      </div>
+
+      <div id="contenedor-boton" class="limpiar">
+        <button data-testid="button-clear">Limpiar
+        </button>
+      </div>
+
+    </header>
+
   </body>
 </html>

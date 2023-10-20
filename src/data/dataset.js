@@ -4,7 +4,7 @@ export default [
     "name": "Luis Miguel",
     "shortDescription": "Cantante mexicano",
     "description": "Luis Miguel es un reconocido cantante mexicano conocido como el 'Sol de México'. Ha sido uno de los artistas latinos más exitosos y populares de todos los tiempos, famoso por su voz y carisma.",
-    "imageUrl": "",
+    "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.quien.com%2Fespectaculos%2F2019%2F04%2F19%2F49-datos-obligados-de-la-vida-de-luis-miguel&psig=AOvVaw3VTe3n07osOrRlKaMkvIgS&ust=1697902328841000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOi6up35hIIDFQAAAAAdAAAAABAI",
     "facts": {
       "Genre": "Pop",
       "Albums": "33 Albums",
@@ -20,7 +20,7 @@ export default [
     "name": "Shakira",
     "shortDescription": "Cantante y compositora colombiana",
     "description": "Shakira es una destacada cantante y compositora colombiana conocida por su mezcla de estilos musicales, incluyendo pop, rock, dance y ritmos latinos. Su música y carisma la han convertido en una de las artistas más influyentes a nivel mundial.",
-    "imageUrl": "",
+    "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.m.wikipedia.org%2Fwiki%2FArchivo%3AShakira.JPG&psig=AOvVaw2gAz9dOmXAK8HsRn-O2Rzs&ust=1697902432253000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIiR5s75hIIDFQAAAAAdAAAAABBP",
     "facts": {
       "Genre": "Pop",
       "Albums": "11 Albums",
