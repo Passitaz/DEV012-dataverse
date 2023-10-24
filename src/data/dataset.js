@@ -4,7 +4,7 @@ export default [
     "name": "Luis Miguel",
     "shortDescription": "Cantante mexicano",
     "description": "Luis Miguel es un reconocido cantante mexicano conocido como el 'Sol de México'. Ha sido uno de los artistas latinos más exitosos y populares de todos los tiempos, famoso por su voz y carisma.",
-    "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.quien.com%2Fespectaculos%2F2019%2F04%2F19%2F49-datos-obligados-de-la-vida-de-luis-miguel&psig=AOvVaw3VTe3n07osOrRlKaMkvIgS&ust=1697902328841000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOi6up35hIIDFQAAAAAdAAAAABAI",
+    "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Luis%20Miguel.jpg",
     "facts": {
       "Genre": "Pop",
       "Albums": "33 Albums",
@@ -20,7 +20,7 @@ export default [
     "name": "Shakira",
     "shortDescription": "Cantante y compositora colombiana",
     "description": "Shakira es una destacada cantante y compositora colombiana conocida por su mezcla de estilos musicales, incluyendo pop, rock, dance y ritmos latinos. Su música y carisma la han convertido en una de las artistas más influyentes a nivel mundial.",
-    "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.m.wikipedia.org%2Fwiki%2FArchivo%3AShakira.JPG&psig=AOvVaw2gAz9dOmXAK8HsRn-O2Rzs&ust=1697902432253000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIiR5s75hIIDFQAAAAAdAAAAABBP",
+    "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Shakira.jpg",
     "facts": {
       "Genre": "Pop",
       "Albums": "11 Albums",
@@ -36,7 +36,7 @@ export default [
     "name": "Ricky Martin",
     "shortDescription": "Cantante y actor puertorriqueño",
     "description": "Ricky Martin es un reconocido cantante y actor puertorriqueño. Es conocido por su contribución a la música latina y su impacto en la escena musical internacional, así como por su activismo en cuestiones humanitarias.",
-    "imageUrl": "",
+    "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Ricky%20Martin.jpg",
     "facts": {
       "Genre": "Pop",
       "Albums": "11 Albums",
@@ -52,7 +52,7 @@ export default [
     "name": "Gloria Estefan",
     "shortDescription": "Cantante, compositora y actriz cubano-estadounidense",
     "description": "Gloria Estefan es una cantante, compositora y actriz cubano-estadounidense. Es conocida por su influencia en la música latina y pop, así como por su destacada carrera en la música y el entretenimiento.",
-    "imageUrl": "",
+    "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Gloria%20Estefan.jpg",
     "facts": {
       "Genre": "Pop",
       "Albums": "9 Albums",
@@ -68,7 +68,7 @@ export default [
     "name": "Thalía",
     "shortDescription": "Cantante y actriz mexicana",
     "description": "Thalía es una destacada cantante y actriz mexicana, conocida por su contribución a la música latina y su exitosa carrera en la industria del entretenimiento. Ha sido un ícono en la música y la televisión.",
-    "imageUrl": "",
+    "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Thal%C3%ADa.jpg",
     "facts": {
       "Genre": "Pop",
       "Albums": "12 Albums",
@@ -84,7 +84,7 @@ export default [
     "name": "Alejandro Sanz",
     "shortDescription": "Cantante y compositor español",
     "description": "Alejandro Sanz es un destacado cantante y compositor español, conocido por su profunda poesía lírica y su impacto en la música latina y española. Ha sido uno de los artistas más influyentes en la música en español.",
-    "imageUrl": "",
+    "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Alejadro%20Sanz.jpg",
     "facts": {
       "Genre": "Pop",
       "Albums": "11 Albums",
@@ -100,7 +100,7 @@ export default [
     "name": "Paulina Rubio",
     "shortDescription": "Cantante y actriz mexicana",
     "description": "Paulina Rubio es una cantante y actriz mexicana, conocida por su contribución a la música pop y latina. Ha tenido una exitosa carrera en la industria del entretenimiento y es una de las artistas más influyentes en América Latina.",
-    "imageUrl": "",
+    "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Paulina%20Rubio.jpg",
     "facts": {
       "Genre": "Pop",
       "Albums": "10 Albums",
@@ -116,7 +116,7 @@ export default [
     "name": "Chayanne",
     "shortDescription": "Cantante y actor puertorriqueño",
     "description": "Chayanne es un cantante y actor puertorriqueño ampliamente reconocido por su contribución a la música latina y su carisma en el escenario. Ha sido un ícono en la música latina durante décadas.",
-    "imageUrl": "",
+    "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Chayanne.jpg",
     "facts": {
       "Genre": "Pop",
       "Albums": "13 Albums",
@@ -132,7 +132,7 @@ export default [
     "name": "The Beatles",
     "shortDescription": "Banda de rock británica",
     "description": "The Beatles fue una influyente banda de rock británica formada en Liverpool en 1960. Son considerados una de las bandas más exitosas y revolucionarias en la historia de la música.",
-    "imageUrl": "",
+    "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/The%20Beatles.jpg",
     "facts": {
       "Genre": "Rock",
       "Albums": "12 Albums",
@@ -148,7 +148,7 @@ export default [
     "name": "Led Zeppelin",
     "shortDescription": "Banda de rock británica",
     "description": "Led Zeppelin fue una influyente banda de rock británica formada en 1968. Son conocidos por su innovación en el rock y su legado en la música.",
-    "imageUrl": "",
+    "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Led%20Zeppelin.jpg",
     "facts": {
       "Genre": "Rock",
       "Albums": "9 Albums",
@@ -164,7 +164,7 @@ export default [
     "name": "Queen",
     "shortDescription": "Banda de rock británica",
     "description": "Queen es una icónica banda de rock británica conocida por su diversidad musical y el carisma de su vocalista, Freddie Mercury. Han dejado una huella indeleble en la música.",
-    "imageUrl": "",
+    "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Queen.jpeg",
     "facts": {
       "Genre": "Rock",
       "Albums": "15 Albums",
@@ -180,7 +180,7 @@ export default [
     "name": "The Rolling Stones",
     "shortDescription": "Banda de rock británica",
     "description": "The Rolling Stones son una banda de rock británica formada en 1962. Han sido una de las bandas más longevas y exitosas en la historia del rock.",
-    "imageUrl": "",
+    "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/The%20Roling%20Stones.jpg",
     "facts": {
       "Genre": "Rock",
       "Albums": "27 Albums",
@@ -196,7 +196,7 @@ export default [
     "name": "Pink Floyd",
     "shortDescription": "Banda de rock británica",
     "description": "Pink Floyd es una influyente banda de rock británica conocida por su música psicodélica y su impacto en la música progresiva. Han creado álbumes conceptuales notables.",
-    "imageUrl": "",
+    "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Pink%20Floyd.jpg",
     "facts": {
       "Genre": "Rock",
       "Albums": "15 Albums",
@@ -212,7 +212,7 @@ export default [
     "name": "The Doors",
     "shortDescription": "Banda de rock estadounidense",
     "description": "The Doors fue una influyente banda de rock estadounidense formada en 1965. Son conocidos por su música psicodélica y la voz distintiva de Jim Morrison.",
-    "imageUrl": "",
+    "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/The%20Doors.jpg",
     "facts": {
       "Genre": "Rock",
       "Albums": "9 Albums",
@@ -228,7 +228,7 @@ export default [
     "name": "The Police",
     "shortDescription": "Banda de rock británica",
     "description": "The Police fue una influyente banda de rock británica formada en 1977. Son conocidos por su estilo punk y new wave, así como por los éxitos de Sting.",
-    "imageUrl": "",
+    "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/The%20Police.jpg",
     "facts": {
       "Genre": "Rock",
       "Albums": "5 Albums",
@@ -244,7 +244,7 @@ export default [
     "name": "Nirvana",
     "shortDescription": "Banda de rock estadounidense",
     "description": "Nirvana fue una influyente banda de rock estadounidense liderada por Kurt Cobain. Fueron una parte integral del movimiento grunge en la década de 1990.",
-    "imageUrl": "",
+    "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Nirvana.jpg",
     "facts": {
       "Genre": "Rock",
       "Albums": "3 Albums",
@@ -260,7 +260,7 @@ export default [
     "name": "Celia Cruz",
     "shortDescription": "Reina de la Salsa",
     "description": "Celia Cruz, conocida como la 'Reina de la Salsa', fue una icónica cantante cubana de música salsa. Su voz y estilo dejaron un legado imborrable en la música latina.",
-    "imageUrl": "",
+    "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Celia%20Cruz.jpg",
     "facts": {
       "Genre": "Cumbia",
       "Albums": "70 Albums",
@@ -276,7 +276,7 @@ export default [
     "name": "Celso Piña",
     "shortDescription": "Rebelde del Acordeón",
     "description": "Celso Piña, conocido como el 'Rebelde del Acordeón', fue un músico y compositor mexicano conocido por fusionar cumbia con otros géneros musicales.",
-    "imageUrl": "",
+    "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Celso%20Pi%C3%B1a.jpg",
     "facts": {
       "Genre": "Cumbia",
       "Albums": "6 Albums",
@@ -292,7 +292,7 @@ export default [
     "name": "Los Ángeles Azules",
     "shortDescription": "Grupo de cumbia",
     "description": "Los Ángeles Azules es un grupo de cumbia mexicano conocido por su estilo único de cumbia sinfónica. Han sido influyentes en la música tropical latina.",
-    "imageUrl": "",
+    "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Los%20Angeles%20Azules.jpg",
     "facts": {
       "Genre": "Cumbia",
       "Albums": "7 Albums",
@@ -308,7 +308,7 @@ export default [
   "name": "Aniceto Molina",
   "shortDescription": "Rey del Cumbia",
   "description": "Aniceto Molina, conocido como el 'Rey del Cumbia', fue un músico y cantante colombiano conocido por su contribución a la cumbia y la música tropical.",
-  "imageUrl": "",
+  "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Aniceto%20Molina.jpg",
   "facts": {
     "Genre": "Cumbia",
     "Albums": "8 Albums",
@@ -324,7 +324,7 @@ export default [
     "name": "Los Wawanco",
     "shortDescription": "Grupo de música tropical",
     "description": "Los Wawanco es un grupo argentino de música tropical conocido por su estilo alegre y bailable. Han dejado una huella en la música tropical.",
-    "imageUrl": "",
+    "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Los%20Wawanco.jpg",
     "facts": {
       "Genre": "Cumbia",
       "Albums": "8 Albums",
@@ -340,7 +340,7 @@ export default [
     "name": "Grupo Cañaveral",
     "shortDescription": "Grupo de cumbia",
     "description": "Grupo Cañaveral es una destacada banda de cumbia mexicana conocida por su energía y estilo contagioso. Han sido influyentes en la cumbia latina.",
-    "imageUrl": "",
+    "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Grupo%20Ca%C3%B1averal.jpg",
     "facts": {
       "Genre": "Cumbia",
       "Albums": "7 Albums",
@@ -356,7 +356,7 @@ export default [
     "name": "La Sonora Dinamita",
     "shortDescription": "Grupo de cumbia",
     "description": "La Sonora Dinamita es un grupo colombiano de cumbia conocido por su estilo festivo y bailable. Han sido una referencia en la cumbia tropical.",
-    "imageUrl": "",
+    "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/La%20Sonora%20Dinamita.jpg",
     "facts": {
       "Genre": "Cumbia",
       "Albums": "8 Albums",
@@ -372,7 +372,7 @@ export default [
     "name": "Selena",
     "shortDescription": "Reina del Tex-Mex",
     "description": "Selena Quintanilla, conocida como la 'Reina del Tex-Mex', fue una cantante estadounidense de ascendencia mexicana. Su música y legado siguen siendo influyentes en la música latina.",
-    "imageUrl": "",
+    "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Selena.jpg",
     "facts": {
       "Genre": "Cumbia",
       "Albums": "5 Albums",
