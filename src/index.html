@@ -17,36 +17,41 @@
         />
       </div>
 
+      <p>
       <div id="filtros">
-        <h2>Género</h2>
+        <label for="genero">Género</label>        
         <select data-testid="select-filter" name="genero" id="genero">
-        <option value="todos">Todos</option>
+        <option value="blanco1"> </option>
           <option value="Pop">Pop</option>
           <option value="Rock">Rock</option>
           <option value="Cumbia">Cumbia</option>
         </select>
       
-        <h2>Albums</h2>
+        <label for="albums">Albums</label>
         <select data-testid="select-filter" name="album" id="album">
-        <option value="todos">Todos</option>
-          <option value="1-10">1-10</option>
-          <option value="11-20">11-20</option>
-          <option value="21+">21+</option>
+        <option value="blanco2"> </option>
+          <option value="1-10">1 - 10</option>
+          <option value="11-20">11 - 20</option>
+          <option value="21+">21 +</option>
         </select>
 
-        <h2>Alfabeticamente</h2>
-          <select data-testid="select-filter" name="alfabeto" id="alfabeto">
-          <option value="todos">Todos</option>
-            <option value="A-Z">A-Z</option>
-            <option value="Z-A">Z-A</option>
+        <label for="ordenar">Ordenar</label>
+          <select data-testid="select-sort" name="ordenar" id="ordenar">
+          <option value="blanco3"> </option>
+            <option value="asc">A - Z</option>
+            <option value="desc">Z - A</option>
           </select>
-
       </div>
+      </p>
 
+      <p>
       <div id="contenedor-boton" class="limpiar">
         <button data-testid="button-clear">Limpiar
         </button>
       </div>
+      </p>
+//comentario
+      <div id="root"></div>
 
     </header>
 
