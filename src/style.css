@@ -1,0 +1,24 @@
+header {
+    font-family: 'Lucida Bright';
+    font-size: 20px;
+    text-align: start;
+    color: blanchedalmond;;
+}
+
+body {
+    background: linear-gradient(rgb(116, 16, 111), rgb(26, 57, 97), rgb(25, 25, 92), rgb(6, 17, 6));
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+
+#imagen {
+    align-items: center;
+}
+
+#filtros{
+align-content: center;
+}
+
+#contenedor-boton{
+
+}
