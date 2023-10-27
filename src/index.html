@@ -8,8 +8,12 @@
   <body>
     <script src="main.js" type="module"></script>
 
+    <main></main>
     <header> 
-      <h1>Música en Latinoamerica</h1>
+      <h1>Música</h1>
+      <p>
+        <h2>Artistas Latinoamericanos</h2>
+      </p>
       
       <div id="imagen">
       <img
@@ -21,12 +25,19 @@
       <div id="filtros">
         <label for="genero">Género</label>        
         <select data-testid="select-filter" name="genero" id="genero">
-        <option value="blanco1"> </option>
+        <option value="blanco1">Selecciona una opción</option>
           <option value="Pop">Pop</option>
           <option value="Rock">Rock</option>
           <option value="Cumbia">Cumbia</option>
         </select>
-      </div>
+
+      <label for="ordenar">Ordenar</label>
+          <select data-testid="select-sort" name="ordenar" id="ordenar">
+          <option value="blanco3">Selecciona una opción</option>
+            <option value="asc">A - Z</option>
+            <option value="desc">Z - A</option>
+          </select>
+        </div>
       </p>
 
       <p>
@@ -35,10 +46,14 @@
         </button>
       </div>
       </p>
-//comentario
+
       <div id="root"></div>
 
     </header>
+    </main>
+
+    <footer>Elaborado por Rocío Juárez y Zaira Pasillas</footer>
+
   </body>
-  <footer>Elaborado por Rocío Juárez y Zaira Pasillas</footer>
+  
 </html>
