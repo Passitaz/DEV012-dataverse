@@ -3,20 +3,22 @@ export const renderItems = (data) => {
   let lista = "";
 
   //lista.className= 'card';
-  data.forEach(element => {
-    lista += `<li>
   
-    <dl itemscope itemtype="Artist">"
-    <img class="imag" src="${element.imageUrl}" alt="imagen" />
-    <dt>Nombre:</dt><dd itemprop="name">${element.name}</dd>
-    <dt>Descripción:</dt><dd itemprop="description">${element.shortDescription}</dd>
-    <dt>Género:</dt><dd itemprop="yearOfBirth">${element.facts.Genre}</dd>
-    <dt>Número de Albumnes:</dt><dd itemprop="placeOfBirth">${element.facts.Albums}</dd>
-    <dt>Solista o grupo:</dt><dd itemprop="mainField">${element.facts.Artist}</dd>
+  data.forEach(element => {
+    lista += `<li class="liClass">
+
+    <dl itemscope itemtype="Artist">
+      <img class="imag" src="${element.imageUrl}" alt="imagen"/>
+      <dt><strong>Nombre:</strong></dt><dd itemprop="name">${element.name}</dd>
+      <dt><strong>Descripción:</strong></dt><dd itemprop="description">${element.shortDescription}</dd>
+      <dt><strong>Género:</strong></dt><dd itemprop="genre">${element.facts.Genre}</dd>
+      <dt><strong>Número de Albumnes:</strong></dt><dd itemprop="albums">${element.facts.Albums}</dd>
+      <dt><strong>Solista o grupo:</strong></dt><dd itemprop="artist">${element.facts.Artist}</dd>
     </dl>
     </li>`
     
-  });
+    });
  
-  return `<ul>${lista}</ul>`;
+  return `<ul class="ulClass">${lista}</ul>`;
+  
 };
