@@ -1,10 +1,3 @@
-header {
-    /*font-family: 'Lucida Bright';
-    font-size: 20px;
-    text-align: start;
-    color: blanchedalmond;*/
-}
-
 h1 {
     column-span:all;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -27,12 +20,17 @@ body {
 
 #filtros{
     display: flex;
-    color: rgb(38, 16, 149);
-    justify-content: space-between;
+    color: rgb(246, 246, 248);
+    font-family: 'Courier New', Courier, monospace;
 }
 
-#filtros {
-    font-family: 'Courier New', Courier, monospace;
+#tipo{
+    margin-left: 40px;
+}
+
+#tipo2{
+    margin-left: 80px;
+    margin-right: 150px;
 }
 
 .imag{
@@ -63,6 +61,27 @@ body {
     margin-right: 30px;
     flex: 1;    
     color: aqua navajowhite;
+    background-color: rgb(253, 253, 250);
+    text-align: center;    
+    max-width: 400px;
+}
+
+.liClass .imag{
+    justify-content: center;
+}
+
+.liClass dt {
+    color: rgb(16, 26, 138);
+    text-align: left;
+    line-height: 1.5;
+    font-size: larger;
+    margin-left: 30px;
+}
+
+.liClass dd{
+    color: rgb(15, 133, 191);
+    text-align: left;
+    margin-bottom: 10px;
 }
 
 footer {

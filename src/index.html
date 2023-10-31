@@ -23,20 +23,24 @@
 
       <p>
       <div id="filtros">
-        <label for="genero"><strong>Género</strong></label>        
+        <div id="tipo">
+        <label for="genero"><strong>Género: </strong></label>        
         <select data-testid="select-filter" name="genero" id="genero">
         <option value="blanco1">Selecciona una opción</option>
           <option value="Pop">Pop</option>
           <option value="Rock">Rock</option>
           <option value="Cumbia">Cumbia</option>
         </select>
+        </div>
 
-      <label for="ordenar"><strong>Ordenar</strong></label>
+        <div id="tipo2">
+        <label for="ordenar"><strong>Ordenar: </strong></label>
           <select data-testid="select-sort" name="ordenar" id="ordenar">
           <option value="blanco3">Selecciona una opción</option>
             <option value="asc">A - Z</option>
             <option value="desc">Z - A</option>
           </select>
+        </div>
 
           <button data-testid="button-clear">Limpiar</button>
       </div>
