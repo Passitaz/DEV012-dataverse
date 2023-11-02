@@ -1,6 +1,3 @@
-// Estas funciones son ejemplos, aquí puedes desarrollar tus propias funciones.
-let resultado = null;
-
 export const genero = (data, gener) => {
 const genroFiltrado = data.filter(item => item.facts.genre === gener);
  

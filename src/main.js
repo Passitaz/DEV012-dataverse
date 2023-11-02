@@ -7,22 +7,28 @@ console.log(renderItems(data), data);
 
 const contenedorCanciones = document.querySelector("#root");
 contenedorCanciones.innerHTML = renderItems(data);
+let newData = data;
 
 //Filtro
 const filtrado = document.querySelector('[data-testid="select-filter"]');
 filtrado.addEventListener("change", function(e){
     console.log(e.target.value)
     const generos = genero(data, e.target.value);
+    newData = generos;
     contenedorCanciones.innerHTML = renderItems(generos);
 });
 
 //Ordenamiento
 const orden = document.querySelector('[data-testid="select-sort"]');
 orden.addEventListener("change", function(e){
-    console.log(e.target.value)
-    const orden = ordenamiento(data, e.target.value);
-    contenedorCanciones.innerHTML = renderItems(orden);
+    console.log(e.target.value);
+    const ordenado = ordenamiento(newData, e.target.value);
+    contenedorCanciones.innerHTML = renderItems(ordenado);
 });
+
+//Estadistica
+
+
 
 //Boton
 const boton = document.querySelector('[data-testid="button-clear"]');
@@ -30,9 +36,7 @@ boton.addEventListener('click', function(){
 
     filtrado.value = "blanco1";
     orden.value = "blanco2";
-    
-    const generos = genero(data, filtrado.value);
-    const ordenar = ordenamiento(data, orden.value);
+    newData = data;
 
-    contenedorCanciones.innerHTML = renderItems(ordenar);
+    contenedorCanciones.innerHTML = renderItems(newData);
 })
