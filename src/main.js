@@ -1,4 +1,4 @@
-import { genero, ordenamiento } from './dataFunctions.js';
+import { genero, ordenamiento, suma } from './dataFunctions.js';
 import { renderItems } from './view.js';
 
 import data from './data/dataset.js';
@@ -27,7 +27,10 @@ orden.addEventListener("change", function(e){
 });
 
 //Estadistica
-
+const stadistic = document.getElementById ('estadistica');
+const frase = "Total  de Albums: ";
+const sumaData = suma(data);
+stadistic.innerHTML = frase + sumaData;
 
 
 //Boton

@@ -18,6 +18,10 @@ body {
     align-items: center;
 }
 
+#estadistica{
+    color: white;
+}
+
 #filtros{
     display: flex;
     color: rgb(246, 246, 248);

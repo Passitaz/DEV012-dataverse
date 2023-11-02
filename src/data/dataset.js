@@ -7,7 +7,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/The%20Roling%20Stones.jpg",
     "facts": {
       "genre": "Rock",
-      "albums": "27 Albums",
+      "albums": "27",
       "artist": "Agrupación"
     },
     "extraInfo": {
@@ -23,7 +23,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Luis%20Miguel.jpg",
     "facts": {
       "genre": "Pop",
-      "albums": "33 Albums",
+      "albums": "33",
       "artist": "Solista"
   },
     "extraInfo": {
@@ -39,7 +39,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Queen.jpeg",
     "facts": {
       "genre": "Rock",
-      "albums": "15 Albums",
+      "albums": "15",
       "artist": "Agrupación"
     },
     "extraInfo": {
@@ -55,7 +55,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Selena.jpg",
     "facts": {
       "genre": "Cumbia",
-      "albums": "5 Albums",
+      "albums": "5",
       "artist": "Solista"
     },
     "extraInfo": {
@@ -71,7 +71,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Gloria%20Estefan.jpg",
     "facts": {
       "genre": "Pop",
-      "albums": "9 Albums",
+      "albums": "9",
       "artist": "Solista"
     },
     "extraInfo": {
@@ -87,7 +87,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/The%20Doors.jpg",
     "facts": {
       "genre": "Rock",
-      "albums": "9 Albums",
+      "albums": "9",
       "artist": "Agrupación"
     },
     "extraInfo": {
@@ -103,7 +103,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Thal%C3%ADa.jpg",
     "facts": {
       "genre": "Pop",
-      "albums": "12 Albums",
+      "albums": "12",
       "artist": "Solista"
     },
     "extraInfo": {
@@ -119,7 +119,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Alejadro%20Sanz.jpg",
     "facts": {
       "genre": "Pop",
-      "albums": "11 Albums",
+      "albums": "11",
       "artist": "Solista"
     },
     "extraInfo": {
@@ -135,7 +135,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Paulina%20Rubio.jpg",
     "facts": {
       "genre": "Pop",
-      "albums": "10 Albums",
+      "albums": "10",
       "artist": "Solista"
     },
     "extraInfo": {
@@ -151,7 +151,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Chayanne.jpg",
     "facts": {
       "genre": "Pop",
-      "albums": "13 Albums",
+      "albums": "13",
       "artist": "Solista"
     },
     "extraInfo": {
@@ -167,7 +167,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/The%20Beatles.jpg",
     "facts": {
       "genre": "Rock",
-      "albums": "12 Albums",
+      "albums": "12",
       "artist": "Agrupación"
     },
     "extraInfo": {
@@ -183,7 +183,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Shakira.jpg",
     "facts": {
       "genre": "Pop",
-      "albums": "11 Albums",
+      "albums": "11",
       "artist": "Solista"
   },
     "extraInfo": {
@@ -199,7 +199,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Led%20Zeppelin.jpg",
     "facts": {
       "genre": "Rock",
-      "albums": "9 Albums",
+      "albums": "9",
       "artist": "Agrupación"
     },
     "extraInfo": {
@@ -215,7 +215,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Los%20Angeles%20Azules.jpg",
     "facts": {
       "genre": "Cumbia",
-      "albums": "7 Albums",
+      "albums": "7",
       "artist": "Agrupación"
     },
     "extraInfo": {
@@ -231,7 +231,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Pink%20Floyd.jpg",
     "facts": {
       "genre": "Rock",
-      "albums": "15 Albums",
+      "albums": "15",
       "artist": "Agrupación"
     },
     "extraInfo": {
@@ -247,7 +247,7 @@ export default [
   "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Aniceto%20Molina.jpg",
   "facts": {
     "genre": "Cumbia",
-    "albums": "8 Albums",
+    "albums": "8",
     "artist": "Solista"
     },
     "extraInfo": {
@@ -263,7 +263,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/The%20Police.jpg",
     "facts": {
       "genre": "Rock",
-      "albums": "5 Albums",
+      "albums": "5",
       "artist": "Agrupación"
     },
     "extraInfo": {
@@ -279,7 +279,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Celia%20Cruz.jpg",
     "facts": {
       "genre": "Cumbia",
-      "albums": "70 Albums",
+      "albums": "70",
       "artist": "Solista"
     },
     "extraInfo": {
@@ -295,7 +295,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Nirvana.jpg",
     "facts": {
       "genre": "Rock",
-      "albums": "3 Albums",
+      "albums": "3",
       "artist": "Agrupación"
     },
     "extraInfo": {
@@ -311,7 +311,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Celso%20Pi%C3%B1a.jpg",
     "facts": {
       "genre": "Cumbia",
-      "albums": "6 Albums",
+      "albums": "6",
       "artist": "Agrupación"
     },
     "extraInfo": {
@@ -327,7 +327,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Los%20Wawanco.jpg",
     "facts": {
       "genre": "Cumbia",
-      "albums": "8 Albums",
+      "albums": "8",
       "artist": "Agrupación"
     },
     "extraInfo": {
@@ -343,7 +343,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Ricky%20Martin.jpg",
     "facts": {
       "genre": "Pop",
-      "albums": "11 Albums",
+      "albums": "11",
       "artist": "Solista"
   },
     "extraInfo": {
@@ -359,7 +359,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Grupo%20Ca%C3%B1averal.jpg",
     "facts": {
       "genre": "Cumbia",
-      "albums": "7 Albums",
+      "albums": "7",
       "artist": "Agrupación"
     },
     "extraInfo": {
@@ -375,7 +375,7 @@ export default [
     "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/La%20Sonora%20Dinamita.jpg",
     "facts": {
       "genre": "Cumbia",
-      "albums": "8 Albums",
+      "albums": "8",
       "artist": "Agrupación"
     },
     "extraInfo": {
