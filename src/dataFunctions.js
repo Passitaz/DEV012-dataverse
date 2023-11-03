@@ -1,24 +1,24 @@
-export const genero = (data, value) => {
-const genroFiltrado = data.filter(item => item.facts.genre === value);
+export const filterData = (data, filterBy, value) => {
+const genroFiltrado = (data || filterBy).filter(item => item.facts.genre === value);
  
   return genroFiltrado;
 }
 
-export const ordenamiento = (genroFiltrado, sortOrder) => {
+export const sortData = (data, sortBy, sortOrder) => {
 
   if(sortOrder === "asc"){
-    return genroFiltrado.slice().sort((a, b) => a.name.localeCompare(b.name));
+    return (data || sortBy).slice().sort ((a, b) => a.name.localeCompare(b.name));
   }else if (sortOrder === "desc"){
-    return genroFiltrado.slice().sort((a, b) => b.name.localeCompare(a.name));
+    return (data || sortBy).slice().sort ((a, b) => b.name.localeCompare(a.name));
   }
   return genroFiltrado;
 }
 
-export const suma = (data, genroFiltrado) => {
+export const computeStats = (data) => {
 
- const suma = genroFiltrado.reduce ((acc, item) => {
-    if (item.albums=== value) acc ++;
-  return acc;
-  }, 0);
+ //const suma = genroFiltrado.reduce ((acc, item) => {
+ //   if (item.albums=== value) acc ++;
+ // return acc;
+ // }, 0);
  console.log(suma);
 }

@@ -1,4 +1,4 @@
-import { genero, ordenamiento, suma } from './dataFunctions.js';
+import { filterData, sortData, computeStats } from './dataFunctions.js';
 import { renderItems } from './view.js';
 
 import data from './data/dataset.js';
@@ -13,7 +13,7 @@ let newData = data;
 const filtrado = document.querySelector('[data-testid="select-filter"]');
 filtrado.addEventListener("change", function(e){
     console.log(e.target.value)
-    const generos = genero(data, e.target.value);
+    const generos = filterData(data, newData, e.target.value);
     newData = generos;
     contenedorCanciones.innerHTML = renderItems(generos);
 });
@@ -22,15 +22,15 @@ filtrado.addEventListener("change", function(e){
 const orden = document.querySelector('[data-testid="select-sort"]');
 orden.addEventListener("change", function(e){
     console.log(e.target.value);
-    const ordenado = ordenamiento(newData, e.target.value);
+    const ordenado = sortData(newData, genero, e.target.value);
     contenedorCanciones.innerHTML = renderItems(ordenado);
 });
 
 //Estadistica
 const stadistic = document.getElementById ('estadistica');
 const frase = "Total  de Albums: ";
-const sumaData = suma(data);
-stadistic.innerHTML = frase + sumaData;
+//const sumaData = computeStats(data);
+stadistic.innerHTML = frase + '';
 
 
 //Boton

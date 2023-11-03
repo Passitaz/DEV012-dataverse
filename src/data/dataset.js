@@ -32,22 +32,6 @@ export default [
   },
 
   {
-    "id": "queen",
-    "name": "Queen",
-    "shortDescription": "Banda de rock británica",
-    "description": "Queen es una icónica banda de rock británica conocida por su diversidad musical y el carisma de su vocalista, Freddie Mercury. Han dejado una huella indeleble en la música.",
-    "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Queen.jpeg",
-    "facts": {
-      "genre": "Rock",
-      "albums": "15",
-      "artist": "Agrupación"
-    },
-    "extraInfo": {
-      "imageSource": ""
-    }
-  },
-
-  {
     "id": "selena",
     "name": "Selena",
     "shortDescription": "Reina del Tex-Mex",
@@ -57,6 +41,22 @@ export default [
       "genre": "Cumbia",
       "albums": "5",
       "artist": "Solista"
+    },
+    "extraInfo": {
+      "imageSource": ""
+    }
+  },
+
+  {
+    "id": "queen",
+    "name": "Queen",
+    "shortDescription": "Banda de rock británica",
+    "description": "Queen es una icónica banda de rock británica conocida por su diversidad musical y el carisma de su vocalista, Freddie Mercury. Han dejado una huella indeleble en la música.",
+    "imageUrl": "https://raw.githubusercontent.com/Passitaz/DEV012-dataverse/main/Artistas/Queen.jpeg",
+    "facts": {
+      "genre": "Rock",
+      "albums": "15",
+      "artist": "Agrupación"
     },
     "extraInfo": {
       "imageSource": ""
