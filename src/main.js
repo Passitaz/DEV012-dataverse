@@ -28,9 +28,8 @@ orden.addEventListener("change", function(e){
 
 //Estadistica
 const stadistic = document.getElementById ('estadistica');
-const frase = "Total  de Albums: ";
-//const sumaData = computeStats(data);
-stadistic.innerHTML = frase + '';
+const sumaData = computeStats(data);
+stadistic.innerHTML = `Total de Albums: ${sumaData}`;
 
 
 //Boton

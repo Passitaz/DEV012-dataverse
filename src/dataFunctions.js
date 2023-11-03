@@ -1,6 +1,8 @@
 export const filterData = (data, filterBy, value) => {
 const genroFiltrado = (data || filterBy).filter(item => item.facts.genre === value);
  
+const sumaTotal = computeStats(genroFiltrado);
+console.log(sumaTotal);
   return genroFiltrado;
 }
 
@@ -15,10 +17,9 @@ export const sortData = (data, sortBy, sortOrder) => {
 }
 
 export const computeStats = (data) => {
+  const albumCounts = data.map(item => parseInt(item.facts.albums));
+  const sumaTotal = albumCounts.reduce((acumulador, valor) => acumulador + valor, 0); 
 
- //const suma = genroFiltrado.reduce ((acc, item) => {
- //   if (item.albums=== value) acc ++;
- // return acc;
- // }, 0);
- console.log(suma);
+  console.log(sumaTotal);
+  return sumaTotal;
 }
