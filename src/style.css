@@ -1,21 +1,37 @@
-h1 {
-    column-span:all;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: red;
-}
-
-h2 {
-    column-span:all;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-}
-
 body {
     background: linear-gradient(rgb(116, 16, 111), rgb(26, 57, 97), rgb(25, 25, 92), rgb(6, 17, 6));
 }
 
+h1{
+        column-span: all;
+        font-family: system-ui;
+        color: rgb(55 192 235);
+        font-size: 60px;
+
+}
+
+h2 {
+        column-span: all;
+        font-family: cursive;
+        color: rgb(236, 239, 240);
+        text-align: center;
+        font-size: 25px;
+}
+
+
+
 #imagen {
-    align-items: center;
+    
+    width: 100%;
+    height: 50%;
+    text-align: center;
+
+}
+
+#imagen img {
+    width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+    height: 150px; /* La imagen ocupa todo el alto del contenedor */
+    object-fit: cover; /* Ajusta la imagen para llenar completamente el contenedor */
 }
 
 #estadistica{
@@ -40,6 +56,7 @@ body {
 .imag{
     width: 200px;
     height: 200px;
+    
 }
 
 #root{
@@ -94,4 +111,28 @@ footer {
     color: #fff;
     padding: 1px;
     text-align: center;
+}
+
+
+button {
+    background-color: darkgrey;
+}
+
+#estadistica {
+    font-family: arial;
+    font-size: 18px;
+    font-weight: bold;
+    color: #b5b5cd;
+} 
+@media screen and (max-width: 767px) {
+    .liClass{
+        font-size: 200px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+   
+}
+@media screen and (min-width: 1024px) {
+  
 }

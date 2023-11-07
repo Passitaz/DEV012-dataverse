@@ -9,13 +9,20 @@ const contenedorCanciones = document.querySelector("#root");
 contenedorCanciones.innerHTML = renderItems(data);
 let newData = data;
 
+//Estadistica
+const stadistic = document.getElementById ('estadistica');
+const sumaData = computeStats(data);
+stadistic.innerHTML = `Total de Albums: ${sumaData}`;
+
 //Filtro
 const filtrado = document.querySelector('[data-testid="select-filter"]');
 filtrado.addEventListener("change", function(e){
     console.log(e.target.value)
     const generos = filterData(data, newData, e.target.value);
     newData = generos;
-    contenedorCanciones.innerHTML = renderItems(generos);
+    contenedorCanciones.innerHTML = renderItems(newData);
+    const sumaData = computeStats(newData);
+stadistic.innerHTML = `Total de Albums: ${sumaData}`;
 });
 
 //Ordenamiento
@@ -25,12 +32,6 @@ orden.addEventListener("change", function(e){
     const ordenado = sortData(newData, genero, e.target.value);
     contenedorCanciones.innerHTML = renderItems(ordenado);
 });
-
-//Estadistica
-const stadistic = document.getElementById ('estadistica');
-const sumaData = computeStats(data);
-stadistic.innerHTML = `Total de Albums: ${sumaData}`;
-
 
 //Boton
 const boton = document.querySelector('[data-testid="button-clear"]');
