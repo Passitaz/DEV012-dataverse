@@ -17,7 +17,7 @@ export const renderItems = (data) => {
     </dl>
     </li>`
     
-    });
+  });
  
   return `<ul class="ulClass">${lista}</ul>`;
   

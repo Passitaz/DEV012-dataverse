@@ -1,18 +1,25 @@
-import { example, anotherExample } from '../src/dataFunctions.js';
-import { data as fakeData } from './data.js';
+import { computeStats } from "../src/dataFunctions.js";
+import { data as fakeData } from "./data.js";
 
-console.log(fakeData);
+//console.log(fakeData);
 
-describe('example', () => {
+//const { totalAlbums } = require('./data');
 
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
-  });
-});
+describe("computeStats", () => {
+  it("debe devolver el total correcto de álbumes", () => {
+    // Llama a la función con un conjunto de datos de prueba
+    const data = [
+      { facts: { albums: 100 } },
+      { facts: { albums: 200 } },
+      { facts: { albums: 24 } },
+    ];
 
-describe('anotherExample', () => {
+    const resultado = computeStats(data);
 
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
+    // Define el valor esperado
+    const valorEsperado = 324; // La suma de los álbumes en el conjunto de datos de prueba
+
+    // Comprueba si el resultado es igual al valor esperado
+    expect(resultado).toBe(valorEsperado);
   });
 });
