@@ -14,7 +14,7 @@ describe('computeStats', () => {
 
     const resultado = computeStats(fakeData);
     //const resultado2 = computeStats(mockData);
-    console.log(resultado);
+    //console.log(resultado);
 
     // Comprueba si el resultado es igual al valor esperado
     expect(resultado).toBe(324);
@@ -27,5 +27,21 @@ describe('filterData', () => {
     const totalCancionesRock = filterData (fakeData, "genre", "Rock")
 
     expect(totalCancionesRock.length).toBe(8);
+  });
+});
+
+describe('filterData', () => {
+  it ('Debe devolver el total de canciones de genero Cumbia', () => {
+    const totalCancionesRock = filterData (fakeData, "genre", "Cumbia")
+
+    expect(totalCancionesRock.length).toBe(8);
+  });
+});
+
+describe('filterData', () => {
+  it ('Debe devolver el total de canciones de genero Jazz', () => {
+    const totalCancionesJazz = filterData (fakeData, "genre", "Jazz")
+  
+    expect(totalCancionesJazz.length).toBe(0);
   });
 });
