@@ -1,6 +1,6 @@
 export const filterData = (data, filterBy, value) => {
-  const genroFiltrado = (data || filterBy).filter(
-    (item) => item.facts.genre === value
+  const genroFiltrado = data.filter(
+    (item) => item.facts[filterBy] === value
   );
   return genroFiltrado;
 };

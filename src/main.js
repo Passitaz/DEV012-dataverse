@@ -18,7 +18,7 @@ stadistic.innerHTML = `Total de Albums: ${sumaData}`;
 const filtrado = document.querySelector('[data-testid="select-filter"]');
 filtrado.addEventListener("change", function(e){
   //console.log(e.target.value)
-  const generos = filterData(data, newData, e.target.value);
+  const generos = filterData(data, "genre", e.target.value);
   newData = generos;
   contenedorCanciones.innerHTML = renderItems(newData);
   const sumaData = computeStats(newData);
