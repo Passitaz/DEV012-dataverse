@@ -50,7 +50,7 @@ describe("sortData", () => {
     const firstArtistName = sortedData[0].name;
 
     expect(firstArtistName).toBe("Alejandro Sanz");
-    console.log(firstArtistName);
+    //console.log(firstArtistName);
   });
 });
 
@@ -61,6 +61,6 @@ describe("sortData", () => {
     const secondArtistName = sortedData[0].name;
 
     expect(secondArtistName).toBe("Selena");
-    console.log(secondArtistName);
+    //console.log(secondArtistName);
   });
 });

@@ -18,6 +18,6 @@ export const computeStats = (data) => {
     0
   );
 
-  console.log(sumaTotal);
+  //console.log(sumaTotal);
   return sumaTotal;
 };
