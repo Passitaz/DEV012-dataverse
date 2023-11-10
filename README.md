@@ -3,7 +3,7 @@
 
 ## Resumen
 
-En este proyecto constuimos una página web para visualizar un conjunto de datos generado con prompting. En este proyecto utilizamos herramientas de inteligencia artificial: ChatGPT para generar el set de datos.
+En este proyecto se construyó una página web para visualizar un conjunto de datos generado con prompting. En este proyecto utilizamos herramientas de inteligencia artificial: ChatGPT para generar el set de datos.
 
 El proyecto consta de una página web que permite visualizar la data (Música), filtrarla (por género), ordenarla (de manera ascendente "A-Z" y descendente "Z-A") y calcular alguna estadística (La suma del número total de albmes vendidos de cada artista por género). 
 
