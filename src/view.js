@@ -5,7 +5,7 @@ export const renderItems = (data) => {
   //lista.className= 'card';
   
   data.forEach(element => {
-    lista += `<li class="liClass">
+    lista += `<li class="liClass" itemscope itemtype="Artist" data-id=${element.id}>
 
     <dl itemscope itemtype="Artist">
       <img class="imag" src="${element.imageUrl}" alt="imagen"/>
