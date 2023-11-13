@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Data Lovers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="main.js" type="module"></script>
+
+    <main>
+    <header> 
+      <div id="encabezado">
+      <h1>MusicArt</h1>
+      <p>
+        <h2>¡Lo mejor de la música en Latinoamérica!</h2>
+      </p>
+      </div>
+      <div id="imagen">
+      <img
+        src="imagenes/Ultravioleta.jpg" 
+        />
+      </div>
+
+      <p>
+      <div id="filtros">
+        <div id="tipo">
+        <label for="genero"><strong>Género: </strong></label>        
+        <select data-testid="select-filter" name="genero" id="genero">
+        <option value="blanco1">Selecciona una opción</option>
+          <option value="Pop">Pop</option>
+          <option value="Rock">Rock</option>
+          <option value="Cumbia">Cumbia</option>
+        </select>
+        </div>
+
+        <div id="tipo2">
+        <label for="ordenado"><strong>Ordenar: </strong></label>
+          <select data-testid="select-sort" name="sort-order" id="ordenado">
+          <option value="blanco2">Selecciona una opción</option>
+            <option value="asc">A - Z</option>
+            <option value="desc">Z - A</option>
+          </select>
+        </div>
+
+          <button data-testid="button-clear">Limpiar</button>
+      </div>
+      </p>
+      
+      <div id="estadistica"></div>
+
+      <div id="root"></div>
+
+    </header>
+    </main>
+
+    <footer id="footer">
+      <p></p>
+    </footer>
+
+  </body>
+  
+</html>
